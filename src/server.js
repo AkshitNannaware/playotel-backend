@@ -52,7 +52,7 @@ app.use(cors({
   origin: [
     'http://localhost:5173',
     'https://hotel-backend-4-vcy8.onrender.com',
-    'https://hotel-frontend-orcin.vercel.app'
+    // 'https://hotel-frontend-orcin.vercel.app'
   ],
   credentials: true,
 }));
