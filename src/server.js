@@ -51,8 +51,8 @@ const MONGO_URI = process.env.MONGO_URI;
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://hotel-backend-4-vcy8.onrender.com',
-    'https://playotel-backend.onrender.com',
+    // 'https://hotel-backend-4-vcy8.onrender.com',
+    // 'https://playotel-backend.onrender.com',
     'https://playotel-frontend.vercel.app/'
   ],
   credentials: true,
